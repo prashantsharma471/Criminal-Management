@@ -1,0 +1,100 @@
+.Outer-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background-color: #f0f0f0; /* Light gray background */
+    background-image: url("../image/new2.jpg");
+    background-size: cover;
+}
+
+/* Styles for the heading */
+.mainHeading {
+    color: white;
+    font-size:55px; /* Equivalent to text-4xl */
+    font-weight: bold;
+    text-align: center;
+     /*color: #333;  Dark gray text color */
+    margin-bottom: 60px; /* Equivalent to mb-8 */
+}
+
+/* Styles for the button container */
+.inner-container {
+    display: flex;
+    gap: 20px; /* Equivalent to space-x-4 */
+}
+
+/* Styles for the buttons */
+
+
+.buttonTwo {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px; /* Equivalent to px-4 py-2 */
+    background-color: green; /* Blue background color */
+    color: #fff; /* White text color */
+    border-radius: 4px; /* Equivalent to rounded */
+    transition: background-color 0.3s; /* Equivalent to transition-colors */
+     font-size: 20px;
+}
+
+.buttonOne { text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    padding: 8px 16px; /* Equivalent to px-4 py-2 */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    border-radius: 4px; /* Equivalent to rounded */
+    transition: background-color 0.3s; /* Equivalent to transition-colors */
+     font-size: 20px;
+    
+}
+
+.buttonThree {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px; /* Equivalent to px-4 py-2 */
+    background-color: goldenrod; /* Blue background color */
+    color: #fff; /* White text color */
+    border-radius: 4px; /* Equivalent to rounded */
+    transition: background-color 0.3s; /* Equivalent to transition-colors */
+ font-size: 20px;
+}
+
+.buttonFour {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px; /* Equivalent to px-4 py-2 */
+    background-color: red; /* Blue background color */
+    color: #fff; /* White text color */
+    border-radius: 4px; /* Equivalent to rounded */
+    transition: background-color 0.3s; /* Equivalent to transition-colors */
+     font-size: 20px;
+}
+/*
+.button:hover {
+    background-color: #0056b3; Darker blue on hover 
+} */
+
+#new4{
+   
+    border-radius: 4px;
+    
+}
+
+.text{
+    text-decoration: none;
+        margin-left: 5px;
+}
+
+a{ color:white;
+text-decoration: none;}
+
+
+
+.input-class::placeholder {
+    color: white;
+}
