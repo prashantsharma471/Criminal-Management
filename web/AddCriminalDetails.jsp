@@ -34,7 +34,7 @@
             </div>
        </div>
         
-<!--        
+<!--     this is a comment   
          <script>
         // Get references to DOM elements
         const fileInput = document.getElementById('fileInput');
